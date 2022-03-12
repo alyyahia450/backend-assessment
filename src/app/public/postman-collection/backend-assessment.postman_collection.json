@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "9e882d46-f8d5-44b8-8461-47bb976d329a",
+		"name": "backend-assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8060/api/v1/users?provider=DataProviderX&statusCode=authorised&balanceMin=100&balanceMax=1000&currency=USD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8060/api/v1/users?provider=DataProviderX&statusCode=authorised&balanceMin=100&balanceMax=1000&currency=USD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8060",
+					"path": [
+						"api",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": "provider",
+							"value": "DataProviderX",
+							"description": "DataProviderX || DataProviderY"
+						},
+						{
+							"key": "statusCode",
+							"value": "authorised",
+							"description": "authorised ||decline||refunded"
+						},
+						{
+							"key": "balanceMin",
+							"value": "100"
+						},
+						{
+							"key": "balanceMax",
+							"value": "1000"
+						},
+						{
+							"key": "currency",
+							"value": "USD",
+							"description": "USD ||AED"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

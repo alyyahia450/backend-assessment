@@ -1,0 +1,27 @@
+[
+    {
+        "parentAmount":100,
+        "Currency":"USD",
+        "parentEmail":"parent1@parent.eu",
+        "statusCode":1,
+        "registerationDate": "2018-11-30",
+        "parentIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+    },
+    {
+        "parentAmount":500,
+        "Currency":"AED",
+        "parentEmail":"parent3@parent.eu",
+        "statusCode":2,
+        "registerationDate": "2019-11-30",
+        "parentIdentification": "d3d29d70-1d25-11e3-8591-034165a3a614"
+    },
+    {
+        "parentAmount":900,
+        "Currency":"USD",
+        "parentEmail":"parent5@parent.eu",
+        "statusCode":3,
+        "registerationDate": "2019-12-20",
+        "parentIdentification": "d3d29d70-1d25-11e3-8591-034165a3a615"
+    }
+
+]
